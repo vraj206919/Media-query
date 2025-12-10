@@ -450,3 +450,52 @@ body {
     height: 4vh;
   }
 }
+
+@media (min-width: 1200px) {
+  .hero-content p {
+    font-size: 25px;
+  }
+  .gallery-grid{
+    
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: repeat(2ftr,4ftr);
+  
+    
+
+ }
+   .gallery-item{
+    height: 40vh !important;
+    width: 30vw !important;
+   }
+
+}   
+
+@media (min-width: 1400px) {
+  .hero-content p{
+    font-size: 25px;
+  }
+
+  .btn{
+    height: 5%;
+    width: 12vw;
+    font-size: 20px;
+  }
+
+  .sectionabout h2{
+    font-size: 30px !important;
+  }
+
+    .gallery-grid{
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap;
+
+ }
+  .gallery-item{
+    height: 25vh !important;
+    width: 30vw !important; 
+  }
+
+
+}
